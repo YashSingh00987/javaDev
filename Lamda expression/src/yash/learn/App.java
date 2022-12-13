@@ -33,7 +33,7 @@ public class App {
 		
 		
 		Collections.sort(list,(Name o1, Name o2)->{
-			if(o1.getName().length()<o2.getName().length()) {
+			if(o1.getName().length()>o2.getName().length()) {
 				return -1;
 			}else if(o1.getName().length()>o2.getName().length()) {
 				return 1;
